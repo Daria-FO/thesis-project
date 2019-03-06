@@ -1,0 +1,808 @@
+@media (max-width : 1200px) {
+    .container{
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    /*Header*/
+    .header__container {
+        padding-top: 25px;
+    }
+
+    .header-button__menu {
+        display: block;
+        width: 45px;
+        height: 32px; 
+        padding-top: 5px;
+    }
+
+    .header__menu-list {
+        display: none;
+    }
+
+/*main*/
+    .hanging-symbols__first_position-top {
+        left: 5%;
+        top: 634px;
+    }
+
+    .hanging-symbols__second_position-top {
+        display: none;
+    }
+
+    .hanging-symbols__third_position-top {
+        left: 10%;
+        top: 159px;
+    }
+
+    .hanging-symbols__fourth_position-top {
+        left: 36%;
+        top: 579px;
+    }
+    .hanging-symbols__fifth_position-top {
+        left: 78%;
+        top: 144px;
+    }
+
+    .hanging-symbols__sixth_position-top {
+        left: 75%;
+    }
+
+    .hanging-symbols__eighth_position-top {
+        left: 43%;
+        top: 100px;  
+    }   
+
+    .business-card_background-image {
+        background-position-x: 150%;
+    }
+
+    .business-card__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .business-card-description {
+        flex-basis: 490px;
+    }
+
+    .text__name {
+        font-size: 54px;
+    }
+
+    .text__profession {
+        line-height: 1.5;
+    }
+
+    .button_view {
+        width: 320px;
+        height: 68px;
+    }
+ 
+    .foto__man {
+        position: static;
+         width: 435px; 
+         height: 637px;
+         margin-top: 57px;
+     }
+
+     .foto__shadow {
+         display: none;
+     }
+
+    .skills {
+        height: 884px;
+    }
+    .skills-list_height {
+        height: 375px;
+    }
+
+    .skills-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        margin: 0;
+    }
+
+    .skills-list__item  {
+        flex-basis: 350px;
+        height: 147px;
+        padding-top: 93px;
+    }
+
+    .skills__button {
+        margin: 100px auto 0;
+    }
+
+    .work-examples {
+        height: 957px;
+    }
+
+    .slider__text {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .slider__image {
+        width: 455px;
+        height: 358px;
+    }
+
+    .hanging-symbols__first_position-bottom {
+        left: 5%;
+        top: 2875px;
+        font-size: 40px;
+    }
+
+    .hanging-symbols__second_position-bottom {
+        display: none;
+    }
+
+    .hanging-symbols__third_position-bottom {
+        left: 20%;
+        top: 2721px;
+        font-size: 40px;
+    }
+
+    .hanging-symbols__fourth_position-bottom {
+        left: 86%;
+        top: 2745px;
+        font-size: 40px;
+    }
+
+    .hanging-symbols__fifth_position-bottom {
+        left: 60%;
+        top: 2986px;
+        font-size: 40px;
+    }
+
+    .footer__container {
+        height: 287px;
+    }   
+}
+
+@media (max-width : 1205px) {
+    /*.slider__item {
+        width: 455px;
+        height: 406px;
+        margin: 0 17px;   
+    }
+    
+    .slider__image {
+        width: 455px;
+        height: 360px;
+        margin: 0 auto;
+        padding: 0;
+    }*/
+
+    /*.slider__text {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 2;
+        color: rgb(137, 147, 173);
+        text-align: center;
+        vertical-align: bottom;
+    }   */
+
+    .work-examples__button {
+        margin: 170px auto 0;
+    }
+    
+}
+
+@media (max-width : 1026px) {
+
+    .hanging-symbols__first_position-top {
+        left: 5%;
+        top: 634px;
+    }
+
+    .hanging-symbols__third_position-top {
+        left: 16%;
+        top: 159px;
+    }
+
+    .hanging-symbols__fourth_position-top {
+        left: 33%;
+        top: 579px;
+    }
+
+    .hanging-symbols__fifth_position-top {
+        left: 84%;
+        top: 140px;
+    }
+
+    .hanging-symbols__eighth_position-top {
+        left: 40%;
+        top: 236px;
+    }
+
+    .business-card {
+        background-color: #fbfbfb;
+        height: 694px;
+    
+        background-image: url(../img/Ellipse2.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 170px;
+    }
+
+    .promo__main-text {
+        font-size: 40px;
+    }
+
+    .hanging-symbols__first_position-bottom {
+        display: none;
+    }
+
+    .hanging-symbols__third_position-bottom {
+        left: 16%;
+        top: 2730px;
+    }
+
+    .hanging-symbols__fourth_position-bottom {
+        left: 83%;
+        top: 2985px;  
+    }
+
+    .hanging-symbols__fifth_position-bottom {
+        left: 49%;
+        top: 3005px;
+    }
+
+
+}
+
+@media (max-width : 992px) {
+    .container{
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hanging-symbols.growing {
+        font-size: 40px;
+    }
+
+    .hanging-symbols__third_position-top {
+        left: 5%;
+        top: 415px;
+    }
+
+    .hanging-symbols__fifth_position-top {
+        left: 80%;
+        top: 140px;
+    }
+
+    .hanging-symbols__eighth_position-top {
+        left: 23%;
+        top: 95px;
+    }
+
+
+    .business-card__description {
+        text-align: center;
+    }
+
+    .business_card__button {
+        margin: 60px auto 0;
+    }
+}
+
+@media (max-width : 855px){
+    .hanging-symbols__eighth_position-top {
+        left: 23%;
+        top: 120px;
+    }
+
+    .business-card {
+        position: static;
+        overflow: visible;
+    }
+
+    .business-card__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .business-card__description {
+        margin-top: 10px;
+    }
+
+    .foto {
+        order: -1;
+    }
+
+    .headline-position {
+        margin-top: 335px;
+    }
+
+    .hanging-symbols__third_position-bottom, 
+    .hanging-symbols__fourth_position-bottom,
+    .hanging-symbols__fifth_position-bottom {
+        display: none;
+    }
+}
+
+@media (max-width : 794px){
+    .request-a-call {
+        width: 430px;
+    }
+
+    .request-a-call__phone {
+        font-size: 23px;
+    }
+
+    .skills {
+        height: 1335px;
+    }
+
+    .skills-list_height {
+        height: 845px;
+    }
+
+    .promo__main-text {
+        font-size: 35px;
+    }
+
+    .promo__footnote-text {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .call-social-block {
+        flex-basis: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-block {
+        margin-top: 0;
+        order: -1;
+    }
+
+}
+
+@media (max-width : 576px){
+    .container{
+        padding: 15px 15px 0;
+    }
+
+    .hanging-symbols.growing {
+        font-size: 30px;
+    }
+ 
+    .hanging-symbols__first_position-top {
+        left: 13%;
+        top: 345px;
+    }
+
+    .hanging-symbols__third_position-top {
+        left: 24%;
+        top: 171px;
+    }
+
+    .hanging-symbols__fourth_position-top {
+        display: none;
+    }
+
+    .hanging-symbols__fifth_position-top {
+    left: 78%;
+    top: 55px;
+}
+
+    .hanging-symbols__sixth_position-top {
+        top: 356px;
+    }
+
+
+    .business-card {
+        height: 617px;
+    }
+
+    .text__name {
+        font-size: 45px;
+    }
+
+    .text__profession {
+        font-size: 20px;
+    }
+
+    .foto__man {
+        width: 400px;
+        height: 560px;
+    }
+
+    .request-a-call {
+        width: 207px;
+    }
+
+    .request-a-call__phone {
+        font-size: 23px;
+        display: none;
+    }
+
+    .foto__man {
+        margin-top: 42px;
+    }
+
+    .slick-dots {
+        margin: 0 auto;
+    }
+
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .work-examples__button {
+        margin: 75px auto 0;
+    }
+
+    .skills {
+        height: 1270px;
+        padding-top: 330px;
+    }
+
+    .headline__2 {
+        font-size: 45px;
+    }
+
+    .headline-position {
+        margin-top: 0;
+    }
+
+    .work-examples {
+        height: 845px;
+    }
+
+    .slider__image {
+        width: 370px;
+        height: 290px;
+    }
+
+    .banner {
+        height: 310px;
+    }
+
+    .promo__main-text {
+        font-size: 30px;
+    }
+
+    .promo__footnote-text {
+        max-width: 95%;
+    }
+
+    .footer__container {
+        height: 454px;
+    }
+
+    .info {
+        flex-basis: 240px;
+    }
+
+    .info__phone {
+        width: 200px;
+    }
+
+    .fa.fa-phone {
+        font-size: 20px;
+    }
+
+    .footer__phone {
+        font-size: 20px;
+        color: rgb(137, 147, 173);
+    }
+
+    .email {
+        width: 240px;
+    }
+
+    .fa.fa-envelope {
+        font-size: 17px;
+    }
+
+    .footer__email {
+        font-size: 20px;
+        color: rgb(137, 147, 173);
+    }
+
+    .call-social-block {
+        flex-basis: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-block {
+        width: 60%;
+        margin-top: 59px;
+        padding-bottom: 35px;
+        order: 0;
+    }
+
+    .request-a-call__button_footer {
+        width: 320px;
+        height: 68px;
+        background-color: #ff4e2e;
+        font-size: 18px;
+        line-height: 60px;
+        color: #ffffff;
+        border: none;
+    }
+
+    
+}
+
+@media (max-width : 470px){
+
+    .header-button__menu_image {
+        width: 25px;
+        height: 20px;
+    }
+
+    .request-a-call {
+        width: 26px;
+    }
+
+    .request-a-call__button_header {
+        display: none;
+    }
+
+    .request-a-call__button_mini  {
+        display: block;
+        width: 26px;
+        height: 26px;
+
+        background-image: url(../img/Ellipse3.png);
+        background-repeat: no-repeat;
+    }
+
+    .request-a-call__button_mini .fa-phone {
+        padding-top: 4px;
+    }
+
+    .hanging-symbols__eighth_position-top {
+        left: 7%;
+        top: 120px;
+    }
+
+    .hanging-symbols__fifth_position-top {
+        left: 78%;
+        top: 74px;
+    }
+
+    .hanging-symbols__third_position-top {
+        left: 73%;
+        top: 202px;
+    }
+
+    .hanging-symbols__first_position-top {
+        left: 7%;
+        top: 345px;
+    }
+
+    .business-card {
+        height: 465px;
+        background-image: url(../img/Ellipse2.svg);
+    }
+
+    .text__name {
+        font-size: 30px;
+        line-height: 51px;
+        padding-top: 0;
+        padding-left: 5px;
+    }
+
+    .text__profession {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .foto__man {
+        width: 320px;
+        height: 450px;
+        margin-top: 0;
+    }
+
+    .button_view {
+        width: 280px;
+        height: 55px;
+        margin-top: 21px;
+        font-size: 16px;
+    }
+
+    .headline__2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .headline-position {
+        margin-bottom: 50px;
+    }
+
+    .skills {
+        height: 940px;
+        padding-top: 225px;
+    }
+
+    .skills-list {
+        width: 220px;
+        justify-content: center;
+        align-content: space-between;
+        margin: 0 auto;
+    }
+
+    .skills-list_height {
+        height: 630px;
+
+    }
+
+    .skills-list__item {
+        font-size: 16px;
+        line-height: 24px;
+        height: 30px;
+        flex-basis: 219px;
+        padding-top: 70px;
+        margin-bottom: 0;
+    }
+
+    .skills-list__item_page-proofs {
+        text-indent: 0;
+        background-image: url(../img/320/tools-and-utensils.png);
+    }
+    
+    .skills-list__item_responsive {
+        background-image: url(../img/320/responsive.png);
+    }
+    
+    .skills-list__item_development {
+        background-image: url(../img/320/programming.png);
+    }
+    
+    .skills-list__item_correction {
+        background-image: url(../img/320/coding.png);
+    }
+
+    .skills__button {
+        margin: 100px auto 0;
+    }
+
+    .work-examples {
+        height: 705px;
+    }
+
+    .slider__item {
+        flex-basis: 280px;
+        font-size: 18px;
+    }
+
+    .slider__image {
+        width: 280px;
+        height: 250px;
+    }
+
+    .slider__text {
+        font-size: 18px;
+
+    }
+
+    .slick-dots li {
+        margin: 0 5px 0;
+    }
+
+    .slick-dots {
+        margin: 0 auto;
+    }
+
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .work-examples__button {
+        margin: 75px auto 0;
+    }
+
+    .banner {
+        height: 437px;
+    }
+
+    .promo__main-text {
+        font-size: 28px;
+    }
+
+    .footer__container {
+        justify-content: center;
+    }
+
+    .footer__menu {
+        flex-basis: 280px;
+        padding: 0;
+    }
+
+    .info {
+        flex-basis: 280px;
+    }
+
+    .request-a-call__button_footer {
+        width: 280px;
+        height: 55px;
+    }
+
+    .copyright {
+        height: 50px;
+    }
+
+    .copyright small {
+        font-size: 12px;
+        line-height: 50px;
+        padding-left: 0;
+    }
+
+    .form_view {
+        width: 320px;
+    }
+
+    .button_close {
+        left: 135px;
+    }
+
+}
+
+@media (max-width : 340px){
+
+    .business-card {
+        height: 392px;
+        background-image: url(../img/Ellipse4.svg);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 90px;
+    }
+
+    .hanging-symbols__first_position-top {
+        top: 206px;
+    }
+
+    .hanging-symbols__third_position-top {
+        left: 15%;
+        top: 100px;
+    }
+
+    .hanging-symbols__fourth_position-top {
+        display: block;
+        top: 18px;
+        left: 55%;
+    }
+
+    .hanging-symbols__fifth_position-top {
+        display: none;
+    }
+
+    .hanging-symbols__sixth_position-top {
+        top: 49px;
+        left: 74%;
+    }
+
+    .hanging-symbols__eighth_position-top {
+        display: none;
+    }
+
+    .hanging-symbols__first_position-top {
+        top: 180px;
+        left: 5%;
+    }
+
+    .foto__man {
+        width: 223px;
+        height: 335px;
+        margin-top: 42px;
+    }
+}
