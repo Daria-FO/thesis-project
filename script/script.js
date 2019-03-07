@@ -1,4 +1,5 @@
 $(function(){
+  /*slider*/
     $('.work-examples_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -34,16 +35,33 @@ $(function(){
           ]
     });
 
+    /*symbols*/
     $('.hanging-symbols').addClass('growing');
 
+
+    /*menu*/
+    $('.header-button__menu').click(function(){
+        
+        var menu=$('.header__menu-list');
+
+        if (menu.css('display') == 'flex'){
+            menu.css('display', 'none');
+        }else{
+            menu.show(1000).css('display', 'flex');
+        }
+    });
+    
+    /*form*/
     $('.request-a-call__button').click(function(){
         $('.popup_request-a-call').css('display', 'flex');
-
     });
 
+    $('.request-a-call__button_mini').click(function(){
+        $('.popup_request-a-call').css('display', 'flex');
+    });
+    
     $('.business_card__button').click(function(){
         $('.popup_to-learn-more').css('display', 'flex');
-
     });
 
     $('.skills__button').click(function(){
@@ -52,7 +70,6 @@ $(function(){
 
     $('.work-examples__button').click(function(){
         $('.popup_project-order').css('display', 'flex');
-
     });
 
     $('.popup').click(function(event){
@@ -64,5 +81,9 @@ $(function(){
     $('.button_close').click(function(){
         $('.popup').css('display', 'none');
     })
+
+    /*проверка поля для ввода номера телефона*/
+
+    $('.form__item-tel').inputmask('+9 (999) 999 99 99');
 
 });

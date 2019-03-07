@@ -18,6 +18,12 @@
 
     .header__menu-list {
         display: none;
+        height: 68px;
+        position: absolute;
+        top: 0;
+        left: 120px;
+        z-index: 10;
+        align-items: center;
     }
 
 /*main*/
@@ -162,28 +168,6 @@
 }
 
 @media (max-width : 1205px) {
-    /*.slider__item {
-        width: 455px;
-        height: 406px;
-        margin: 0 17px;   
-    }
-    
-    .slider__image {
-        width: 455px;
-        height: 360px;
-        margin: 0 auto;
-        padding: 0;
-    }*/
-
-    /*.slider__text {
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 2;
-        color: rgb(137, 147, 173);
-        text-align: center;
-        vertical-align: bottom;
-    }   */
-
     .work-examples__button {
         margin: 170px auto 0;
     }
@@ -258,6 +242,11 @@
         max-width: 90%;
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .header__menu-list {
+        top: 43px;
+        left: 5%;
     }
 
     .hanging-symbols.growing {
@@ -547,6 +536,12 @@
         height: 20px;
     }
 
+    .header__menu-list {
+        top: 0;
+        left: 15%;
+        height: 30px;
+    }
+
     .request-a-call {
         width: 26px;
     }
@@ -757,6 +752,14 @@
 
 }
 
+@media (max-width : 470px){
+    .header__menu-list {
+        top: 38px;
+        left: 7%;
+        height: 30px;
+    }
+}
+
 @media (max-width : 340px){
 
     .business-card {
@@ -778,7 +781,7 @@
 
     .hanging-symbols__fourth_position-top {
         display: block;
-        top: 18px;
+        top: 95px;
         left: 55%;
     }
 
@@ -787,10 +790,9 @@
     }
 
     .hanging-symbols__sixth_position-top {
-        top: 49px;
+        top: 129px;
         left: 74%;
     }
-
     .hanging-symbols__eighth_position-top {
         display: none;
     }

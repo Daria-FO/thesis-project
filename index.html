@@ -4,6 +4,7 @@
         <title>Дипломный проект</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-TileColor" content="#f3b800">
         <meta name="theme-color" content="#ffc40d">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -17,6 +18,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
         <link rel="manifest" href="img/site.webmanifest">
         <script src="script/jquery-3.3.1.min.js"></script>
+        <script src="script/jquery.inputmask.js"></script>
         <script src="slick/slick.min.js"></script>
         <script src="script/script.js"></script>    
     </head>
@@ -26,13 +28,13 @@
                 <nav class="menu header__menu button_cursor">
                     <div class="button header-button__menu button_cursor"><img class="header-button__menu_image" src="img/navi.svg" alt="menu_navigation"></div>
                     <ul class="menu header__menu-list">
-                        <li class="menu menu__item menu__item_view-header">Услуги</li>
-                        <li class="menu menu__item menu__item_view-header menu__item_look">Портфолио</li>
-                        <li class="menu menu__item menu__item_view-header">Стоймость</li>
+                        <li class="menu menu__item"><a class="menu__item_view-header" href=#services>Услуги</a></li>
+                        <li class="menu menu__item"><a class="menu__item_view-header menu__item_look" href="#portfolio">Портфолио</a></li>
+                        <li class="menu menu__item"><a class="menu__item_view-header" href="#cost">Стоимость</a></li>
                     </ul>   
                 </nav>
                 <div class="request-a-call">
-                    <span class="phone request-a-call__phone">+7 (499) 995-55-77</span>
+                    <a class="phone request-a-call__phone button_cursor" href="tel:+74999955577">+7 (499) 995-55-77</a>
                     <button class="button request-a-call__button request-a-call__button_header button_cursor">Заказать звонок</button>
                     <div class="button request-a-call__button_mini button_cursor"><i class="fa fa-phone" aria-hidden="true"></i></div>
                 </div>
@@ -66,7 +68,7 @@
             </section>
  
             <section class="skills">
-                <div class="container">
+                <div id="services" class="container">
                     <h2 class="headline headline__2 headline-position">Что я делаю</h2>
                     <ul class="skills-list skills-list_height">
                         <li class="skills-list skills-list__item skills-list__item_page-proofs skills-list__items_position">Вёрстка лендинг–страниц и&nbsp;сайтов любой сложности</li>
@@ -74,12 +76,12 @@
                         <li class="skills-list skills-list__item skills-list__item_development skills-list__items_position">Frontend-разработка и&nbsp;программирование</li>
                         <li class="skills-list skills-list__item skills-list__item_correction skills-list__items_position">Исправление и&nbsp;доработка существующей верстки</li>
                     </ul>
-                    <button class="button skills__button button_position button_cursor button_view">Узнать стоймость</button>
+                    <button class="button skills__button button_position button_cursor button_view">Узнать стоимость</button>
                 </div>    
             </section>
 
             <section class="work-examples">
-                <div class="container">
+                <div id="portfolio" class="container">
                     <h2 class="headline headline__2 headline-position">Примеры моих работ</h2>
                     <div class="slider work-examples_slider ">
                         <div class="slider slider__item">
@@ -88,11 +90,11 @@
                         </div>
                         <div class="slider slider__item">
                             <img class="slider slider__image" src="img/1920/Layer1.jpg" alt="Cайт магазина детской одежды">
-                            <p class="slider slider__text">Cайт магазина детской одежды</p>
+                            <p class="slider slider__text">Сайт магазина детской одежды</p>
                         </div>
                         <div class="slider slider__item">
                             <img class="slider slider__image" src="img/1920/Layer3.jpg" alt="Cайт магазина Рыбалов">
-                            <p class="slider slider__text">Cайт магазина &laquo;Рыбалов&raquo;</p>
+                            <p class="slider slider__text">Сайт магазина &laquo;Рыбалов&raquo;</p>
                         </div>
                         <div class="slider slider__item">
                             <img class="slider slider__image" src="img/1920/Layer4.jpg" alt="Сайт студии пилатеса">
@@ -116,7 +118,7 @@
             </section>
 
             <section class="banner">
-                <div class="container">
+                <div id="cost" class="container">
                     <h2 class="headline headline__2 hidden">Услуги</h2>
                     <div class="promo promo-center">
                         <p class="promo promo__main-text">Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за 4&nbsp;часа.*</p>
@@ -136,18 +138,18 @@
         <footer class="footer">
                 <div class="container footer__container">
                     <menu class="menu footer__menu button_cursor">
-                        <li class="menu menu__item menu__item_view-footer">Услуги</li>
-                        <li class="menu menu__item menu__item_view-footer">Портфолио</li>
-                        <li class="menu menu__item menu__item_view-footer">Стоймость</li>
+                        <li class="menu menu__item"><a class="menu__item_view-footer" href=#services>Услуги</a></li>
+                        <li class="menu menu__item"><a class="menu__item_view-footer" href="#portfolio">Портфолио</a></li>
+                        <li class="menu menu__item"><a class="menu__item_view-footer" href="#cost">Стоимость</a></li>
                     </menu>
                     <div class="info">
                         <div class="phone info__phone">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            <p class="phone footer__phone">+7 (499) 995-77-55</p>
+                            <a class="phone footer__phone button_cursor" href="tel:+74999955577">+7 (499) 995-77-55</a>
                         </div>
                         <div class="email">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <address class="email footer__email">dmitry@alekseev.com</address>
+                            <address class="email button_cursor"><a class="footer__email" href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a></address>
                         </div>      
                     </div>
                     <div class="call-social-block">
@@ -170,7 +172,7 @@
                     <span class="button button_close">&#10006;</span>
                     <h3 class="headline form__headline">Заказать звонок</h3>
                     <input class="form form__item form__item-name" type="text" name="name" placeholder="Имя" required>
-                    <input class="form form__item form__item-tel" type="text" name="tel" placeholder="Телефон" required>
+                    <input class="form form__item form__item-tel" type="tel" name="tel" placeholder="Телефон" required>
                     <button class="button button_cursor button_view button_form">Заказать звонок</button>              
             </form>
         </section>
@@ -179,9 +181,9 @@
             <form class="form form_view">
                 <span class="button button_cursor button_close">&#10006;</span>
                 <h3 class="headline form__headline">Узнать больше</h3>
-                <input class="form form__item form__item-email" type="text" name="email" placeholder="e-mail" required>
                 <input class="form form__item form__item-name" type="text" name="name" placeholder="Имя" required>
-                <input class="form form__item form__item-tel" type="text" name="tel" placeholder="Телефон" required>
+                <input class="form form__item form__item-email" type="email" name="email" placeholder="e-mail" required>
+                <input class="form form__item form__item-tel" type="tel" name="tel" placeholder="Телефон" required>
                 <button class="button button_cursor button_view button_form">Узнать больше</button>              
             </form>
         </section>
@@ -190,9 +192,9 @@
             <form class="form form_view">
                 <span class="button button_cursor button_close">&#10006;</span>
                 <h3 class="headline form__headline">Узнать стоимость</h3>
-                <input class="form form__item form__item-email" type="text" name="email" placeholder="e-mail" required>
                 <input class="form form__item form__item-name" type="text" name="name" placeholder="Имя" required>
-                <input class="form form__item form__item-tel" type="text" name="tel" placeholder="Телефон" required>
+                <input class="form form__item form__item-email" type="email" name="email" placeholder="e-mail" required>
+                <input class="form form__item form__item-tel" type="tel" name="tel" placeholder="Телефон" required>
                 <button class="button button_cursor button_view button_form">Узнать стоимость</button>              
             </form>
         </section>
@@ -201,9 +203,9 @@
             <form class="form form_view">
                 <span class="button button_cursor button_close">&#10006;</span>
                 <h3 class="headline form__headline">Заказать проект</h3>
-                <input class="form form__item form__item-email" type="text" name="email" placeholder="e-mail" required>
                 <input class="form form__item form__item-name" type="text" name="name" placeholder="Имя" required>
-                <input class="form form__item form__item-tel" type="text" name="tel" placeholder="Телефон" required>
+                <input class="form form__item form__item-email" type="email" name="email" placeholder="e-mail" required>
+                <input class="form form__item form__item-tel" type="tel" name="tel" placeholder="Телефон" required>
                 <button class="button button_cursor button_view button_form">Заказать проект</button>              
             </form>
         </section>

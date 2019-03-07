@@ -572,8 +572,6 @@ a {text-decoration: none;}
     font-weight: 700;
     line-height: 1.3;
     color: rgb(255, 255, 255);
-    /*padding-top: 73px;
-    padding-left: 113px;*/
 }
  
 .promo__footnote-text {
@@ -644,7 +642,6 @@ a {text-decoration: none;}
 }
   
 .fa-phone {
-    /*padding-top: 16px;*/
     background: linear-gradient(77deg, rgb(230,142,93) 0%, rgb(220,51,146) 99%);
     -webkit-background-clip: text;
     color: transparent;
@@ -750,6 +747,7 @@ a {text-decoration: none;}
     left: 175px;
     font-size: 14px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .form_view {
@@ -771,10 +769,26 @@ a {text-decoration: none;}
     width: 270px;
     display: block;
     border-radius: 15px;
-    border: 1px solid rgb(137, 147, 173);;
+    border: 1px solid rgb(137, 147, 173);
+    font-size: 18px;
+    font-weight: 400;
+    color: #1f1f24;
     text-align: center;
+
     margin: 30px auto;
+    outline: none; 
 }
+
+.form__item:valid {
+    border: 2px solid hsl(308, 82%, 35%);
+    border-radius: 15px;
+}
+
+.form__item:invalid {
+    border: 2px solid #f82370;
+    border-radius: 15px;
+}
+
 
 .button_form {
     margin: 40px auto;
@@ -801,7 +815,6 @@ a {text-decoration: none;}
     overflow: hidden;
 }
 
-/*стили для слайдера*/
 
 
   
